@@ -97,7 +97,6 @@ namespace ToDoList.Tests
       Item newItem2 = new Item(description02);
       Item result = Item.Find(2);
       Assert.AreEqual(newItem2, result);
-
     }
 
   }
